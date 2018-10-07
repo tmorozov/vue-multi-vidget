@@ -4,7 +4,11 @@
   </div>
 </template>
 <script>
+import registerWidgets from '../register-widgets'
 import WidgetsLayout from '@/components/WidgetsLayout.vue'
+
+registerWidgets()
+
 export default {
   components: {
     WidgetsLayout
